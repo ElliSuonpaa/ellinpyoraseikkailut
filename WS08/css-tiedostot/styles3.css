@@ -1,0 +1,99 @@
+body {
+  margin: 10px;
+  padding: 10px;
+  background-color: #f5ccc9;
+}
+
+.navigointipalkki {
+  color: black;
+}
+
+.navigointipalkki .nav-link {
+  color: black;
+}
+
+.otsikko {
+  text-align: center;
+  color: black;
+  padding: 30px;
+  max-width: 700px;
+  margin: auto;
+}
+
+h1 {
+  text-shadow: 2px 2px 8px  #222649;
+  text-decoration: underline;
+  text-decoration-style: wavy;
+  text-decoration-color: #222649;
+  text-underline-offset: 10px;
+
+}
+
+.cards-container {
+display: flex;
+flex-direction: column; /* Tämä pakottaa kortit asettumaan pystysuuntaan */
+align-items: center; /* Keskitetään sisältö vertikaalisesti */
+gap: 20px; /* Väliä korttien ja rivien välille */
+}
+
+.card-row {
+display: flex;
+justify-content: center; /* Keskitetään kortit horisontaalisesti */
+gap: 20px; /* Väliä korttien välille */
+}
+
+form {
+  border: 2px solid #e7dede;
+  max-width: 80%;
+  margin: auto;
+  padding: 5px;
+}
+
+.container {
+  padding: 15px;
+  background-color: #f1f1f1;
+}
+
+input[type=text], input[type=submit] {
+  width: 100%;
+  padding: 12px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+}
+
+input[type=checkbox] {
+  margin-top: 16px;
+}
+
+input[type=submit] {
+  background-color: #222649;
+  color: #f5ccc9;
+  border: none;
+}
+
+input[type=submit]:hover {
+  opacity: 0.8;
+}
+
+.container-fluid {
+  max-width: 700px; /* Säädä tämä arvo tarpeen mukaan */
+  margin: auto; /* Keskittää lomakkeen horisontaalisesti */
+}
+
+.content {
+  flex: 1; /* Venyttää sisältödivin täyttämään käytettävissä olevan tilan */
+  display: flex;
+  flex-direction: column;
+}
+
+.footer {
+  width: 100%; /* Footerin leveys täyttää sivun leveyden */
+  padding: 20px 0; /* Padding ylös ja alas */
+  margin: 15px 0;
+  text-align: center; /* Tekstin keskitys */
+  color:#f5ccc9;
+  font-size: 16px;
+  background-color: #222649; /* Taustaväri */
+}
